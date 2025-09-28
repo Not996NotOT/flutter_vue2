@@ -1,7 +1,7 @@
 name: flutter_vue2
 description: A Flutter library that provides Vue2-like syntax for Flutter widgets.
 version: 0.1.0
-homepage: https://github.com/your-username/flutter_vue2
+homepage: https://github.com/Not996NotOT/flutter_vue2
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

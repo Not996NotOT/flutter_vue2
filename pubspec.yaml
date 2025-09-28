@@ -1,7 +1,10 @@
 name: flutter_vue2
-description: A Flutter library that provides Vue2-like syntax for Flutter widgets.
+description: A Flutter library that provides Vue2-like syntax for reactive component development with type safety and complex object support.
 version: 0.1.0
 homepage: https://github.com/Not996NotOT/flutter_vue2
+repository: https://github.com/Not996NotOT/flutter_vue2
+issue_tracker: https://github.com/Not996NotOT/flutter_vue2/issues
+documentation: https://github.com/Not996NotOT/flutter_vue2#readme
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

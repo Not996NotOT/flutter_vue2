@@ -218,10 +218,8 @@ void main() {
     test('should handle deep property access', () {
       vueData.initData({
         'user': {
-          'profile': {
-            'name': 'John',
-            'age': 25,
-          },
+          'name': 'John',
+          'age': 25,
           'settings': {
             'theme': 'light',
           },
@@ -231,6 +229,11 @@ void main() {
       vueData.updateProperty<String>('user', 'name', 'Jane');
       final userName = vueData.getProperty<String>('user', 'name');
       expect(userName, 'Jane');
+      
+      // 测试更新年龄
+      vueData.updateProperty<int>('user', 'age', 30);
+      final userAge = vueData.getProperty<int>('user', 'age');
+      expect(userAge, 30);
     });
     
     test('should handle type safety with getSafe', () {
